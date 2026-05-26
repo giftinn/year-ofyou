@@ -17,38 +17,38 @@ const ReasonsPage: React.FC<ReasonsPageProps> = ({ onNext }) => {
   const [reasons, setReasons] = useState<Reason[]>([
     {
       id: 1,
-      title: 'I Love You',
-      text: 'Cause you make me feel at home, no matter where i am.',
+      title: 'your heart:',
+      text: 'always loving people (example: me) so sincerely and deeply',
       isRevealed: false
     },
     {
       id: 2,
-      title: 'I Love You',
-      text: 'Cause your presence alone already calms my heart.',
+      title: 'your kindness:',
+      text: 'shown in ways people don’t even notice sometimes',
       isRevealed: false
     },
     {
       id: 3,
-      title: 'I Love You',
-      text: 'Cause you choose me, again and again, even on difficult days.',
+      title: 'your smile:',
+      text: 'making every room feel brighter instantly',
       isRevealed: false
     },
     {
       id: 4,
-      title: 'I Love You',
-      text: 'Cause you see me for who i truly am, and still love me deeply.',
+      title: 'your soul: ',
+      text: 'soft, comforting, and impossible not to adore',
       isRevealed: false
     },
     {
       id: 5,
-      title: 'I Love You',
-      text: 'Cause you make me laugh, feel understood, and feel cherished.',
+      title: 'your presence:',
+      text: 'turning ordinary moments into special memories',
       isRevealed: false
     },
     {
       id: 6,
-      title: 'I Love You',
-      text: 'Cause your patience.. aku cinta kamu karena kamu sabar banget sama aku',
+      title: 'your birthday: ',
+      text: 'giving me another reason to celebrate someone so special like you',
       isRevealed: false
     }
   ]);
