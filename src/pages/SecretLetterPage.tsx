@@ -10,13 +10,15 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Selamatt hari kasih sayanggg, pacarkuuu
+  const fullText = `happy 20th to my favorite person 🤍
   
-tau gaaa??!! aku seneng bisa ngerayain valentine kali ini sama kamuuu. kayaaa apa ya, jadi makin kerasa lengkap aja gituu valentine kali inii karena ada kamu as my lovely boyfiee. makasihh yaa udah mauu stay sama akuu yang masih super childish ini huhuhuu, makasihh udah nemenin hari-hari aku juga sayangg. makasihh juga udah mau dengerin cerita-cerita random aku, terus masih mau ngadepin aku yang suka ngambekan, childish inii. makasih kamu udah mau terus milihh aku yaa sayangg, ituu berartii banget buat aku daripada hadiah-hadiah lain. 
+i still can’t believe i get to love someone as special as you. thank you for being my comfort, my happiness, and one of the best parts of my life. i love the way you care so deeply, the way you never give up even when things get hard, and the way you always make me feel safe just by being here.
 
-kadangg, aku tuh mikirr kayaa ini aku abis ngelakuin apasihh kok dapat karmanya sebaik iniii. iyaa ketemu kamu dan bahkan sekarang tetap jadi pacar kamu tuh karma terbaik menurut aku. aku harap kamu tau sesayangg apa aku sama kamuu, makasihh yaa udah jadi kamuu yang saat inii, yang sabar, yang pengertian, yang bikin hari-hari aku jadi makin seruu. dan aku bener-bener excited buat terus stay longer sama kamu dan bikin banyak kenangan lagii. kamu benerann deserve bahagiaaa banyaaa-banyaa, aku harap kamu selalu bahagia, seneng, dijauhin dari apa yang namanyaa sedii-sediii. kalau ada yang bikin sedii lapor aja ke akuu, aku yang maju paling depan buat nyenengin kamu lagi.
+thank you for every little thing you do, every laugh we share, every late night talk, and every moment that slowly became my favorite memories. being loved by you feels warm, peaceful, and real in the best way possible.
 
-With all my heart, your lovely girlfriend`;
+i hope your 20s bring you happiness, success, genuine people, and beautiful moments that stay with you forever. you deserve every good thing in this world, and i’ll always be cheering for you no matter what.
+
+happy 20th once again, my love 🤍🩷`;
 
   useEffect(() => {
     let currentIndex = 0;
